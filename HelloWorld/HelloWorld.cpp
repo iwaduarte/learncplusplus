@@ -2,10 +2,22 @@
 //
 
 #include <iostream>
+#include "c17.h"
+
 
 int main()
 {
+    auto [iNumbers, iSum] { sum(1, 2, 3) };
+    std::cout << a::b::c::str << ' ' << iNumbers << ' ' << iSum << '\n';
+
+    std::array arr{ 1, 2, 3 };
+
+    std::cout << std::size(arr) << '\n';
+
+   
     std::cout << "Hello World!\n";
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
